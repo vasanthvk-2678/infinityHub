@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "name": "Vasanth",
+        "username": "vasi",
+        "email": "vasanthpersonal.m@gmail.com",
+        "phone": "+91 9944353475",
+        "website": "InfinityHub.com",
+        "company": {
+            "name": "InfinityHub"
+        },
+        "address": {
+            "street": "Sundharapuram",
+            "city": "Coimbatore",
+            "pincode": "641021"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Monisha",
+        "username": "moni",
+        "email": "monisha.v@gmail.com",
+        "phone": "+91 7787865432",
+        "website": "mvtech.com",
+        "company": {
+            "name": "MV Tech PVT LTD"
+        },
+        "address": {
+            "street": "Rasipuram",
+            "city": "Namakkal",
+            "pincode": "637001"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Kumar",
+        "username": "kumar",
+        "email": "kumar.b@gmail.com",
+        "phone": "+91 8765432982",
+        "website": "kumartech.com",
+        "company": {
+            "name": "Kumar Technologied"
+        },
+        "address": {
+            "street": "Palladam",
+            "city": "Tirppur",
+            "pincode": "641601"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Vinoth",
+        "username": "vino",
+        "email": "vinoth@gmail.com",
+        "phone": "+91 987654325",
+        "website": "vkenterprise.com",
+        "company": {
+            "name": "Vk Enterprise"
+        },
+        "address": {
+            "street": "Pollachi",
+            "city": "Pollachi",
+            "pincode": "642003"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Vimal",
+        "username": "vimal",
+        "email": "vimal@gmail.com",
+        "phone": "+91 8877553425",
+        "website": "vimaltex.com",
+        "company": {
+            "name": "Vimal Textiles"
+        },
+        "address": {
+            "street": "Perundurai",
+            "city": "Erode",
+            "pincode": "638001"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Revathi",
+        "username": "revathi",
+        "email": "rev.m@egmail.com",
+        "phone": "+91 8899765434",
+        "website": "vkart.in",
+        "company": {
+            "name": "V Kart"
+        },
+        "address": {
+            "street": "Chennai",
+            "city": "Chennai",
+            "pincode": "600001"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Monisha",
+        "username": "moni",
+        "email": "monisha.v@gmail.com",
+        "phone": "+91 7787865432",
+        "website": "mvtech.com",
+        "company": {
+            "name": "MV Tech PVT LTD"
+        },
+        "address": {
+            "street": "Rasipuram",
+            "city": "Namakkal",
+            "pincode": "637001"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Vimal",
+        "username": "vimal",
+        "email": "vimal@gmail.com",
+        "phone": "+91 8877553425",
+        "website": "vimaltex.com",
+        "company": {
+            "name": "Vimal Textiles"
+        },
+        "address": {
+            "street": "Perundurai",
+            "city": "Erode",
+            "pincode": "638001"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Revathi",
+        "username": "revathi",
+        "email": "rev.m@egmail.com",
+        "phone": "+91 8899765434",
+        "website": "vkart.in",
+        "company": {
+            "name": "V Kart"
+        },
+        "address": {
+            "street": "Chennai",
+            "city": "Chennai",
+            "pincode": "600001"
+        },
+        "profileImage": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+    }
+]

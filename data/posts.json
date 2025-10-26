@@ -1,0 +1,170 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "Introduction to React Hooks",
+        "body": "React Hooks have revolutionized the way we write components. They allow us to use state and other React features without writing a class.",
+        "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "Understanding useEffect",
+        "body": "The useEffect hook lets you perform side effects in function components. It's a powerful tool for data fetching, subscriptions, and manually changing the DOM.",
+        "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "State Management Best Practices",
+        "body": "Managing state effectively is crucial for building scalable React applications. Consider using Context API for global state and local state for component-specific data.",
+        "image": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "React Router Deep Dive",
+        "body": "React Router is the standard routing library for React. It keeps your UI in sync with the URL and provides powerful features like nested routes and lazy loading.",
+        "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "Performance Optimization Tips",
+        "body": "Optimizing React applications involves techniques like memoization, code splitting, and avoiding unnecessary re-renders. These practices ensure smooth user experiences.",
+        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 1,
+        "id": 12,
+        "title": "Server-Side Rendering with Next.js",
+        "body": "Next.js is a React framework that enables server-side rendering and static site generation, improving SEO and initial page load performance.",
+        "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 1,
+        "id": 13,
+        "title": "Progressive Web Apps",
+        "body": "PWAs combine the best of web and mobile apps. They work offline, can be installed on devices, and provide a native app-like experience.",
+        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 2,
+        "id": 6,
+        "title": "Building Responsive Layouts",
+        "body": "Creating responsive designs is essential in modern web development. Using CSS Grid and Flexbox, we can build layouts that adapt to different screen sizes.",
+        "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 2,
+        "id": 12,
+        "title": "Server-Side Rendering with Next.js",
+        "body": "Next.js is a React framework that enables server-side rendering and static site generation, improving SEO and initial page load performance.",
+        "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 2,
+        "id": 13,
+        "title": "Progressive Web Apps",
+        "body": "PWAs combine the best of web and mobile apps. They work offline, can be installed on devices, and provide a native app-like experience.",
+        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 2,
+        "id": 7,
+        "title": "CSS-in-JS Solutions",
+        "body": "CSS-in-JS libraries like styled-components and emotion allow us to write CSS directly in our JavaScript files, providing better component encapsulation.",
+        "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 2,
+        "id": 8,
+        "title": "Tailwind CSS Framework",
+        "body": "Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build custom designs without leaving your HTML.",
+        "image": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 3,
+        "id": 9,
+        "title": "TypeScript with React",
+        "body": "TypeScript adds static typing to JavaScript, making your React code more predictable and easier to debug. It's becoming the industry standard for large projects.",
+        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 3,
+        "id": 10,
+        "title": "Testing React Components",
+        "body": "Testing is crucial for maintaining code quality. React Testing Library and Jest provide excellent tools for unit and integration testing of React components.",
+        "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 3,
+        "id": 11,
+        "title": "GraphQL vs REST APIs",
+        "body": "GraphQL offers a more efficient, powerful alternative to REST. It allows clients to request exactly the data they need, reducing over-fetching and under-fetching.",
+        "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 4,
+        "id": 12,
+        "title": "Server-Side Rendering with Next.js",
+        "body": "Next.js is a React framework that enables server-side rendering and static site generation, improving SEO and initial page load performance.",
+        "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 4,
+        "id": 13,
+        "title": "Progressive Web Apps",
+        "body": "PWAs combine the best of web and mobile apps. They work offline, can be installed on devices, and provide a native app-like experience.",
+        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 4,
+        "id": 14,
+        "title": "Web Accessibility Guidelines",
+        "body": "Building accessible web applications ensures that everyone, including people with disabilities, can use your site effectively. Follow WCAG guidelines for best results.",
+        "image": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 5,
+        "id": 15,
+        "title": "Redux Toolkit Modern Approach",
+        "body": "Redux Toolkit simplifies Redux development with less boilerplate code. It includes utilities to simplify common use cases like store setup and reducers.",
+        "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 5,
+        "id": 16,
+        "title": "Custom Hooks Development",
+        "body": "Creating custom hooks allows you to extract component logic into reusable functions. They're a powerful way to share stateful logic between components.",
+        "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 5,
+        "id": 17,
+        "title": "React Context API Guide",
+        "body": "Context API provides a way to pass data through the component tree without manually passing props at every level. It's perfect for global state management.",
+        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 6,
+        "id": 18,
+        "title": "Micro-Frontend Architecture",
+        "body": "Micro-frontends extend the concept of microservices to frontend development. Multiple teams can work independently on different parts of a web application.",
+        "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 6,
+        "id": 19,
+        "title": "Web Performance Metrics",
+        "body": "Understanding Core Web Vitals like LCP, FID, and CLS is essential for optimizing user experience. These metrics directly impact SEO and user satisfaction.",
+        "image": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "userId": 6,
+        "id": 20,
+        "title": "Modern JavaScript Features",
+        "body": "ES6+ features like arrow functions, destructuring, async/await, and modules have modernized JavaScript development and improved code readability.",
+        "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+    }
+]
