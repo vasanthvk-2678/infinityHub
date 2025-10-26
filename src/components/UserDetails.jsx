@@ -5,7 +5,6 @@ import { FiArrowLeft, FiEdit, FiTrash2, FiPlus } from "react-icons/fi";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
 import { FaGlobeAsia } from "react-icons/fa";
 import PostModal from "./PostsModals";
-import { toast } from 'react-toastify';
 
 
 const POSTS_PER_PAGE = 3;

@@ -8,16 +8,19 @@ const PostModal = ({ isOpen, onClose, onSave, initialData }) => {
     const [image, setImage] = useState("");
 
     useEffect(() => {
-        if (initialData) {
-            setTitle(initialData.title || "");
-            setBody(initialData.body || "");
-            setImage(initialData.image || "");
-        } else {
-            setTitle("");
-            setBody("");
-            setImage("");
+        if (isOpen) {
+            if (initialData) {
+                setTitle(initialData.title || "");
+                setBody(initialData.body || "");
+                setImage(initialData.image || "");
+            } else {
+                setTitle("");
+                setBody("");
+                setImage("");
+            }
         }
-    }, [initialData]);
+    }, [isOpen, initialData]);
+
 
     if (!isOpen) return null;
 
