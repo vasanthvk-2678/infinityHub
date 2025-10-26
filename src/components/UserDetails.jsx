@@ -18,6 +18,8 @@ const UserDetails = ({ user, posts, onBack }) => {
     const [currentPage, setCurrentPage] = useState(1);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [editData, setEditData] = useState(null);
+    const [confirmDeleteId, setConfirmDeleteId] = useState(null);
+
 
     useEffect(() => {
         console.log(posts)
@@ -58,13 +60,16 @@ const UserDetails = ({ user, posts, onBack }) => {
         }
     };
 
-    const handleDelete = (id) => {
-        dispatch(deletePost(id));
-        toast.success("Post deleted!")
-        const remainingPosts = filteredPosts.length - 1;
-        const newTotalPages = Math.ceil(remainingPosts / POSTS_PER_PAGE);
-        if (currentPage > newTotalPages) {
-            setCurrentPage(newTotalPages > 0 ? newTotalPages : 1);
+    const confirmDeletePost = () => {
+        if (confirmDeleteId) {
+            dispatch(deletePost(confirmDeleteId));
+
+            const remainingPosts = filteredPosts.length - 1;
+            const newTotalPages = Math.ceil(remainingPosts / POSTS_PER_PAGE);
+            if (currentPage > newTotalPages) {
+                setCurrentPage(newTotalPages > 0 ? newTotalPages : 1);
+            }
+            setConfirmDeleteId(null);
         }
     };
 
@@ -157,7 +162,7 @@ const UserDetails = ({ user, posts, onBack }) => {
                                         <FiEdit className="text-lg" />
                                     </button>
                                     <button
-                                        onClick={() => handleDelete(post.id)}
+                                        onClick={() => setConfirmDeleteId(post.id)}
                                         className="text-red-500 hover:text-red-700 transition-colors"
                                         title="Delete"
                                     >
@@ -209,6 +214,34 @@ const UserDetails = ({ user, posts, onBack }) => {
                         >
                             &gt;
                         </button>
+                    </div>
+                </div>
+            )}
+
+            {confirmDeleteId && (
+                <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                    <div className="bg-white rounded-xl shadow-lg w-[90%] max-w-md p-6">
+                        <h2 className="text-lg font-semibold text-gray-800 mb-4">
+                            Confirm Delete
+                        </h2>
+                        <p className="text-gray-600 mb-6">
+                            Are you sure you want to delete this post? This action cannot be undone.
+                        </p>
+
+                        <div className="flex justify-end gap-3">
+                            <button
+                                onClick={() => setConfirmDeleteId(null)}
+                                className="px-4 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                onClick={confirmDeletePost}
+                                className="px-4 py-2 rounded-lg bg-red-600 text-white hover:bg-red-700 transition"
+                            >
+                                Delete
+                            </button>
+                        </div>
                     </div>
                 </div>
             )}
