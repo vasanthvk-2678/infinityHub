@@ -1,7 +1,4 @@
-import { useState } from "react";
 import { FiArrowRight } from "react-icons/fi";
-import posts from "../../data/posts.json";
-import UserDetails from "./UserDetails";
 import { useDataContext } from "../context/DataContext";
 import { useNavigate } from "react-router-dom";
 
