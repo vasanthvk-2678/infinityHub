@@ -5,7 +5,7 @@ import { FiArrowLeft, FiEdit, FiTrash2, FiPlus } from "react-icons/fi";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
 import { FaGlobeAsia } from "react-icons/fa";
 import PostModal from "./PostsModals";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 
 const POSTS_PER_PAGE = 3;
@@ -70,7 +70,6 @@ const UserDetails = ({ user, posts, onBack }) => {
 
     return (
         <div className="min-h-screen bg-gray-50 px-8 py-10">
-            <ToastContainer />
             <button
                 onClick={onBack}
                 className="flex items-center text-blue-700 hover:text-blue-900 font-medium mb-6"

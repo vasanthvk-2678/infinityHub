@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 //common for both edit and add post
 const PostModal = ({ isOpen, onClose, onSave, initialData }) => {
@@ -34,13 +34,13 @@ const PostModal = ({ isOpen, onClose, onSave, initialData }) => {
             toast.success("Post uploaded successfully!")
         }
         setTimeout(() => {
+            toast.dismiss();
             onClose();
         }, 1000);
     };
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-40 flex justify-center items-center z-50">
-            <ToastContainer />
             <div className="bg-white rounded-xl p-6 w-[28rem] shadow-lg">
                 <h2 className="text-xl font-semibold mb-4">
                     {initialData ? "Edit Post" : "Add New Post"}
